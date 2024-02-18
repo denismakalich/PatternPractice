@@ -14,10 +14,10 @@ public class CurrentConditionsDisplay : IObserver, IDisplayElement
         _weatherData.RegisterObserver(this);
     }
 
-    public void Update(float temp, float humidity, float pressure)
+    public void Update()
     {
-        _temperature = temp;
-        _humidity = humidity;
+        _temperature = _weatherData.GetTemperature();
+        _humidity = _weatherData.GetHumidity();
         Display();
     }
 

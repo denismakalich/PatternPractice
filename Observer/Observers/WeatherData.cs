@@ -22,17 +22,21 @@ public class WeatherData : ISubject
     {
         foreach (var observer in _observers)
         {
-            observer.Update(_temperature, _humidity, _pressure);
+            observer.Update();
         }
     }
 
-    public void MeansurementsChanged() => NotifyObserver();
+    public void MeasurementsChanged() => NotifyObserver();
 
-    public void SetMeansurements(float temperature, float humidity, float pressure)
+    public void SetMeasurements(float temperature, float humidity, float pressure)
     {
         _temperature = temperature;
         _humidity = humidity;
         _pressure = pressure;
-        MeansurementsChanged();
+        MeasurementsChanged();
     }
+
+    public float GetTemperature() => _temperature;
+    public float GetHumidity() => _humidity;
+    public float GetPressure() => _pressure;
 }

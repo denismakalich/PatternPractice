@@ -7,16 +7,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3706c859-c298-4e1a-b74b-af3e270007b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Observer/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Observers/Displays/CurrentConditionsDisplay.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Observers/Displays/ForecastDisplay.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Observers/Displays/StatisticsDisplay.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Observers/Interfaces/IDisplayElement.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Observers/Interfaces/IObserver.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Observers/Interfaces/ISubject.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Observers/Observers.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Observers/WeatherData.cs" afterDir="false" />
+    <list default="true" id="3706c859-c298-4e1a-b74b-af3e270007b3" name="Changes" comment="pattern observer">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Observer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Observer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Observers/Displays/CurrentConditionsDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Observers/Displays/CurrentConditionsDisplay.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Observers/Displays/ForecastDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Observers/Displays/ForecastDisplay.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Observers/Displays/StatisticsDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Observers/Displays/StatisticsDisplay.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Observers/Interfaces/IObserver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Observers/Interfaces/IObserver.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Observers/Interfaces/ISubject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Observers/Interfaces/ISubject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Observers/WeatherData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Observers/WeatherData.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 8
 }]]></component>
@@ -36,6 +35,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    ".NET Project.Observer.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -83,14 +83,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708263296307</updated>
-      <workItem from="1708263297793" duration="2746000" />
+      <workItem from="1708263297793" duration="3788000" />
     </task>
+    <task id="LOCAL-00001" summary="pattern observer">
+      <option name="closed" value="true" />
+      <created>1708266340275</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708266340275</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="pattern observer" />
+    <option name="LAST_COMMIT_MESSAGE" value="pattern observer" />
   </component>
 </project>

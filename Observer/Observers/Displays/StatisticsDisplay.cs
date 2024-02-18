@@ -20,11 +20,11 @@ public class StatisticsDisplay : IObserver, IDisplayElement
         _weatherData.RegisterObserver(this);
     }
 
-    public void Update(float temp, float humidity, float pressure)
+    public void Update()
     {
-        _temperatures.Add(temp);
-        _humidities.Add(humidity);
-        _pressures.Add(pressure);
+        _temperatures.Add(_weatherData.GetTemperature());
+        _humidities.Add(_weatherData.GetHumidity());
+        _pressures.Add(_weatherData.GetPressure());
 
         Display();
     }
